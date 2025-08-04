@@ -18,17 +18,14 @@ This project automates infrastructure provisioning and remote deployment using T
 ## Project Structure
 
 autodeploy-bot/
-├── deployments/              # Terraform configurations
-│   ├── main.tf
-│   ├── variables.tf
-│   
-├── scripts/                  # Shell scripts for remote execution
-│   └── deploy.sh
-├── .gitignore
-├── requirements.txt          # Python dependencies (if any)
-├── README.md
-
----
+deployments/              # Terraform configurations
+    main.tf
+    variables.tf   
+scripts/                  # Shell scripts for remote execution
+    deploy.sh
+    .gitignore
+    requirement.txt          # Python dependencies (if any)
+    README.md
 
 ## Setup Instructions
 
