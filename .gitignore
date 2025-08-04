@@ -25,10 +25,8 @@ nohup.out
 *.pub
 
 # Deployment folders
-deployment/*.pem
-deployment/*.tfstate
-deployment/.env
-deployment/tf_generated/.terraform.lock.hcl
+deployments/tf_generated/
+deployments/current_app/
 
 # macOS / Editor junk
 .DS_Store
