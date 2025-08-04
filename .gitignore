@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# Logs
+*.log
+nohup.out
+
+# SSH keys and secrets
+*.pem
+*.key
+*.crt
+*.pub
+
+# Deployment folders
+deployment/*.pem
+deployment/*.tfstate
+deployment/.env
+deployment/tf_generated/.terraform.lock.hcl
+
+# macOS / Editor junk
+.DS_Store
+.vscode/
