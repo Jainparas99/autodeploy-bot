@@ -52,7 +52,7 @@ export AWS_SECRET_ACCESS_KEY=your_secret_key
 
 ---
 
-## ☁Terraform Deployment
+## Terraform Deployment
 
 ### Initialize Terraform
 
